@@ -27,7 +27,7 @@ The obtained folder should include:
  
  -- image.pkl
 
-<3> Dataset containing sentimental labels can be directly downloaded from [Google Drive](https://drive.google.com/open?id=13hLJ4yCJVJjz02YB0dyugeE_fcl6EI-B) 
+<3> Dataset containing sentimental labels can be directly downloaded from [Google Drive](https://drive.google.com/drive/folders/1naPgXUdiuIScL-aZpAdzLlbG4QCytEcQ?usp=drive_link) 
 
 The final obtained folder should include:
 
@@ -80,6 +80,18 @@ CUDA_VISIBLE_DEVICES=0 python3 tran_sotvae_2.py -mode test_all  -report 8000 -ba
 ```
 
 
+## Citation
 
-
-
+Hopefully the codes are useful for the future research. If you use the above codes or datasets for your research, please kindly cite our paper:
+```
+@article{fu2024sentiment,
+  title={Sentiment-oriented transformer-based variational autoencoder network for live video commenting},
+  author={Fu, Fengyi and Fang, Shancheng and Chen, Weidong and Mao, Zhendong},
+  journal={ACM Transactions on Multimedia Computing, Communications and Applications},
+  volume={20},
+  number={4},
+  pages={1--24},
+  year={2024},
+  publisher={ACM New York, NY}
+}
+```

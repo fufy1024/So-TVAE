@@ -26,3 +26,36 @@ The obtained folder should include:
  -- dict.json
  
  -- image.pkl
+
+<3> Dataset containing sentimental labels can be directly downloaded from [Google Drive](https://drive.google.com/open?id=13hLJ4yCJVJjz02YB0dyugeE_fcl6EI-B) 
+
+The final obtained folder should include:
+
+- data_Livebot
+
+ -- dicts-30000.json
+ 
+ -- res18.pkl
+
+ -- train-context-skep10.json
+ 
+ -- test-candidate-skep10.json
+ 
+ -- dev-candidate-skep10.json
+ 
+- data_VideoIC
+
+ -- dict.json
+ 
+ -- image.pkl
+
+ -- train-all10.json
+ 
+ -- test-all10.json
+
+ -- dev-all10.json
+
+Modify the dataset path in the code and start running.
+
+
+

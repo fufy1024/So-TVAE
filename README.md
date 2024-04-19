@@ -15,14 +15,14 @@ Go to the corresponding paper project webpage to obtain relevant datasets:
 
 The obtained folder should include:
 
-[-data_Livebot
+- data_Livebot
 
- -dicts-30000.json
+ -- dicts-30000.json
  
- -res18.pkl]
+ -- res18.pkl
  
-[-data_VideoIC
+- data_VideoIC
 
- -dict.json
+ -- dict.json
  
- -image.pkl]
+ -- image.pkl

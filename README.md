@@ -57,5 +57,29 @@ The final obtained folder should include:
 
 Modify the dataset path in the code and start running.
 
+### Train
+
+## Train in data_Livebot
+```
+CUDA_VISIBLE_DEVICES=4 python3 tran_sotvae_1.py -mode train -report 3500 -batch_size 128 -dir [save_path] 
+```
+## Train in data_VideoIC
+```
+CUDA_VISIBLE_DEVICES=5 python3 tran_sotvae_2.py -mode train -report 7500 -batch_size 210 -dir [save_path]
+```
+
+### Test
+
+## Test in data_Livebot
+```
+CUDA_VISIBLE_DEVICES=5 python3 tran_sotvae_1.py -mode test  -report 3500 -batch_size 1 -restore [save_path]
+```
+## Test in data_VideoIC
+```
+CUDA_VISIBLE_DEVICES=0 python3 tran_sotvae_2.py -mode test_all  -report 8000 -batch_size 210 -restore [save_path]
+```
+
+
+
 
 
